@@ -8,6 +8,9 @@ If you do not install it like this:
 pip install fastapi[dev]
 ```
 
+You also need the ensamble model weights used by [CXR Lung Risk](https://github.com/AIM-Harvard/CXR-Lung-Risk) which are at [weights](https://zenodo.org/records/7941660#.ZGOxUuxBzdq).
+After downloading and unpacking move all the .pth files to the `risk_assessor\model_weights\ensamble-model-weights` folder.
+
 Then run this on the project folder:
 ```bash
 fastapi dev
