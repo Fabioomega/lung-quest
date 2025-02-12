@@ -2,10 +2,9 @@
 A simple demo built on FastAPI to assess general lung health through X-ray images throgh the use of [TorchXrayVision](https://github.com/mlmed/torchxrayvision) and [CXR Lung Risk](https://github.com/AIM-Harvard/CXR-Lung-Risk).
 
 ## Quick Start
-You need to have the `fastapi[dev]` and all the other requirements installed to be able to do this!
+You need to have the all the requirements installed to be able to do this!
 If you do not, install it like this:
 ```bash
-pip install fastapi[dev]
 pip install -r requirements.txt
 ```
 
