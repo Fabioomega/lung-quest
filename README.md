@@ -1,11 +1,12 @@
 # Lung Quest
-A simple demo project built on FastAPI to assess general lung health through X-ray images throgh the use of [TorchXrayVision](https://github.com/mlmed/torchxrayvision) and [CXR Lung Risk](https://github.com/AIM-Harvard/CXR-Lung-Risk).
+A simple demo built on FastAPI to assess general lung health through X-ray images throgh the use of [TorchXrayVision](https://github.com/mlmed/torchxrayvision) and [CXR Lung Risk](https://github.com/AIM-Harvard/CXR-Lung-Risk).
 
 ## Quick Start
-You need to have the `fastapi[dev]` installed to be able to do this!
-If you do not install it like this:
+You need to have the `fastapi[dev]` and all the other requirements installed to be able to do this!
+If you do not, install it like this:
 ```bash
 pip install fastapi[dev]
+pip install -r requirements.txt
 ```
 
 You also need the ensamble model weights used by [CXR Lung Risk](https://github.com/AIM-Harvard/CXR-Lung-Risk) which are at [weights](https://zenodo.org/records/7941660#.ZGOxUuxBzdq).
